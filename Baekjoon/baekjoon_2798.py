@@ -7,7 +7,6 @@ def blackjack(li, n, k):
                 sum = li[i] + li[j] + li[z]
                 if sum <= k and sum > res:
                     res = sum
-    
     return res
 
 n, k = map(int,input().split())
