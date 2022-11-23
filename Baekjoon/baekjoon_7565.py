@@ -1,4 +1,4 @@
-# No.7568 덩치
+# No.7568 덩치 비교
 n = int(input())
 li = []
 for _ in range(n):
