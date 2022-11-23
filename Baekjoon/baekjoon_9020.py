@@ -1,4 +1,4 @@
-# No.9020
+# No.9020 골드바흐의 추측
 
 def Goldbach():
     check = [False, False] + [True] * 10000

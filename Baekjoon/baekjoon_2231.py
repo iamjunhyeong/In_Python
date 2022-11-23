@@ -1,4 +1,4 @@
-# No.2231 분해합
+# No.2231  분해합 
 n = int(input())
 
 for i in range(1,n+1):

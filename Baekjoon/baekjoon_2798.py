@@ -1,4 +1,4 @@
-# NO.2798 블랙잭
+# NO.2798  블랙잭
 def blackjack(li, n, k):
     res = 0
     for i in range(n-2):

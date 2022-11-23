@@ -1,3 +1,4 @@
+# No. 11729 하노이 탑 이동순서
 def hanoi(n, first, end, sub,a):
     global cnt
     cnt += 1

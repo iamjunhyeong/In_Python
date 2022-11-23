@@ -1,4 +1,4 @@
-# NO.11650
+# NO.11650 좌표 정렬하기
 import sys
 n = int(sys.stdin.readline())
 so = []

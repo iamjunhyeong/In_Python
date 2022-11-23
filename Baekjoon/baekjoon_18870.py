@@ -1,4 +1,4 @@
-# NO.18870
+# NO.18870 좌표 압축
 import sys
 n = int(sys.stdin.readline())
 li = list(map(int,sys.stdin.readline().split()))

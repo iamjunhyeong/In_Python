@@ -1,4 +1,4 @@
-# No. 1018 체스판 색 바꾸기
+# No.1018 체스판 색 바꾸기
 def find(a,n,m):
     for i in range(n-7):
         for j in range(m-7):

@@ -1,4 +1,4 @@
-# NO. 2563
+# NO. 2563 색종이
 N = int(input())
 arr = [[0 for _ in range(101)]for _ in range(101)]
 

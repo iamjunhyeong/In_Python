@@ -1,3 +1,4 @@
+# No. 2247 별찍기
 def stars(n):
     matrix=[]
     for i in range(3* len(n)):

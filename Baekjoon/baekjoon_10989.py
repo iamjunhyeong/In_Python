@@ -1,4 +1,4 @@
-# NO.10989
+# NO.10989 메모리 초과
 import sys
 n = int(sys.stdin.readline())
 b = [0] * 10001

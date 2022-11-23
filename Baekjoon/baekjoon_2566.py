@@ -1,4 +1,4 @@
-#NO.2566
+#NO.2566 최댓값
 import sys
 max,x,y = -1,0,0
 

@@ -1,4 +1,4 @@
-# No.2108
+# No.2108 깨지고 부서져라
 import sys
 from collections import Counter
 n = int(sys.stdin.readline())
