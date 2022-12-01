@@ -8,7 +8,6 @@ st = []
 i = 0
 while li:
     i = (i+(k-1)) % len(li)
-    print(i)
     st.append(li.pop(i))
     
 print("<%s>" % (", ".join(map(str,st))))
