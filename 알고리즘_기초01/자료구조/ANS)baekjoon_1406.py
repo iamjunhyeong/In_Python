@@ -1,4 +1,5 @@
-# ANS 1
+#NO.1406 에디터
+# ANS 1 
 from sys import stdin
 
 stk1 = list(stdin.readline().strip())
