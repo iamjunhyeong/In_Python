@@ -1,4 +1,4 @@
-#NO.1929 소수찾기 
+#NO.1929 소수구하기 
 A,B=map(int,input().split())
 
 L=[True for i in range(B+1)]
