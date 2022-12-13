@@ -1,3 +1,4 @@
+#NO.2004 조합 0의 개수
 n, m = map(int, input().split())
 
 
