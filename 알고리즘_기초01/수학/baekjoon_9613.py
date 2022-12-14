@@ -1,3 +1,4 @@
+# NO.9613 GCD 합
 from itertools import combinations
 
 def gcd(x, y):
