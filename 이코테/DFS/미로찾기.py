@@ -1,17 +1,31 @@
+from collections import deque
 n, m = map(int,input().split())
 
 graph = []
 for _ in range(n):
     graph.append(list(map(int,input())))
-x = 0
-y = 0
-cnt = 0
-while x != n-1 or y != m-1:
-    if x < n and graph[x+1][y] == 1:
-        x += 1
-        cnt += 1
-    elif y < m and graph[x][y+1] == 1:
-        y += 1
-        cnt += 1
-cnt += 1
-print(cnt)
+
+dx = [1,-1,0,0]
+dy = [0,0,1,-1]
+
+def bfs(x,y):
+    queue = deque()
+    queue.append((x,y))
+
+    while queue:
+        x, y = queue.popleft()
+
+        for i in range(4):
+            nx = x + dx[i]
+            ny = y + dy[i]
+
+            if nx < 0 or nx >= n or ny < 0 or ny >= m:
+                continue
+            elif graph[nx][ny] == 0:
+                continue
+            elif graph[nx][ny] == 1:
+                graph[nx][ny] = graph[x][y] + 1
+                queue.append((nx,ny))
+    return graph[n-1][m-1]
+
+print(bfs(0,0))
