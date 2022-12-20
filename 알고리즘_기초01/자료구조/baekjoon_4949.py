@@ -1,3 +1,4 @@
+# NO.4949 균형잡힌세상
 import sys
 input = sys.stdin.readline
 
