@@ -3,20 +3,13 @@ import sys
 input = sys.stdin.readline
 
 X = int(input())
-cnt = 0
+d = [0] * 1000000
 
-while X != 1:
-    if X%3 == 0:
-        X //= 3
-        cnt += 1
-    elif (X-1)%3 == 0:
-        X -= 1
-        cnt += 1
-    elif X%2 == 0:
-        X //= 2
-        cnt += 1
-    else:
-        X -= 1
-        cnt += 1
-
-print(cnt)
+for i in range(2,X+1):
+    d[i] = d[i-1] + 1
+    if i%2 == 0:
+        d[i] = min(d[i],d[i//2]+1)
+    if i%3 == 0:
+        d[i] = min(d[i],d[i//3]+1)
+    
+print(d[X])
