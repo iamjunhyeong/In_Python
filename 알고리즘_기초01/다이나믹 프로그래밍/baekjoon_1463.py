@@ -1,9 +1,9 @@
-#NO.1463 1로 만들기 (오답)
+#NO.1463 1로 만들기
 import sys 
 input = sys.stdin.readline
 
 X = int(input())
-d = [0] * 1000000
+d = [0] * 1000001
 
 for i in range(2,X+1):
     d[i] = d[i-1] + 1
