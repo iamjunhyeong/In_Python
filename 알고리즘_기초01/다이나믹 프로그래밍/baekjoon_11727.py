@@ -1,3 +1,4 @@
+#NO.11727 2xn 타일링2
 import sys
 input = sys.stdin.readline
 
@@ -9,4 +10,4 @@ d[2] = 3
 for i in range(3,n+1):
     d[i] = d[i-1] + (2 * d[i-2])
 
-print(d[n])
+print(d[n]%10007)
