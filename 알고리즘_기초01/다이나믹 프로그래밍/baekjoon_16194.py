@@ -1,4 +1,4 @@
-#NO.11052 카드구매하기
+#NO.16194 카드구매하기2
 import sys
 input = sys.stdin.readline
 
