@@ -1,4 +1,4 @@
-# No.2108 깨지고 부서져라
+# No.2108 통계학
 import sys
 from collections import Counter
 n = int(sys.stdin.readline())
