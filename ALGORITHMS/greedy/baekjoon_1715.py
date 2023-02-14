@@ -4,8 +4,10 @@ import sys
 input = sys.stdin.readline
 
 n = int(input())
-li = [int(input()) for _ in range(n)]
-li.sort()
+li = []
+for _ in range(n):
+    num = int(input())
+    heapq.heappush(li, num)
 res = 0
 
 while len(li) > 1:
