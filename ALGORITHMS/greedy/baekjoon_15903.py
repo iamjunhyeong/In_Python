@@ -12,3 +12,6 @@ for i in range(m):
     heappush(qu,a+b)    # 두개 병합 후 다시 2번 푸쉬
     heappush(qu,a+b)
 print(sum(qu))
+
+# 가장 작은 애들끼리 합쳐주면 카드 합의 증가량이 가장 적다.
+# 따라서, 그리디하게 풀 수 있다.
