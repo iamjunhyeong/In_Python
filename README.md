@@ -1,2 +1,2 @@
 # In_Pytion
-My Pytion Study Diary
+✏ My Pytion Study Diary
