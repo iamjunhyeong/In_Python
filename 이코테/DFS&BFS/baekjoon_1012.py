@@ -1,4 +1,4 @@
-#NO.1012 ìœ ê¸°ë† ë°°ì¶”
+#NO.1012 ?œ ê¸°ë† ë°°ì¶”
 from collections import deque
 import sys
 input = sys.stdin.readline
@@ -19,7 +19,7 @@ def bfs(graph,x,y):
             if nx < 0 or nx >=n or ny < 0 or ny >= m:
                 continue
             if graph[nx][ny] == 1:
-                #ì´ê±° ì•ˆì¼ê¸° ë•Œë¬¸ì— ë°©ë¬¸í–ˆë˜ê³³ì„ ê³„ì† ë“¤ë ¤ì„œ ì‹œê°„ì´ˆê³¼ë‚¨
+                #?´ê±? ?•ˆ?¼ê¸? ?•Œë¬¸ì— ë°©ë¬¸?–ˆ?˜ê³³ì„ ê³„ì† ?“¤? ¤?„œ ?‹œê°„ì´ˆê³¼ë‚¨
                 graph[nx][ny] = 0
                 qu.append((nx,ny))
 
@@ -33,9 +33,8 @@ for _ in range(int(input())):
     cnt = 0
     for i in range(n):
         for j in range(m):
-            # ë°°ì¶”ê°€ ìˆëŠ” ê³³ë§Œ ë“¤ì–´ê°
+            # ë°°ì¶”ê°? ?ˆ?Š” ê³³ë§Œ ?“¤?–´ê°?
             if graph[i][j] == 1:
                 bfs(graph,i,j)
                 cnt += 1
     print(cnt)
-
